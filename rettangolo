@@ -1,0 +1,20 @@
+<?php 
+
+$base = $_POST['base'];
+$altezza = $_POST['altezza'];
+
+echo "base inserita: " . $base . "<br>";
+echo "altezza inserita: " . $altezza . "<br>";
+
+$area=0;
+$area=$base*$altezza;
+echo "area calcolata: " . $area . "<br>";
+
+$perimetro=0;
+$perimetro=($base*2)+($altezza*2);
+echo "perimetro calcolato: " . $perimetro . "<br>";
+
+$diagonale=0;
+$diagonale=sqrt(($base*$base)+($altezza*$altezza));
+echo "diagonale calcolata: " . $diagonale . "<br>";
+?>
